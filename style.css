@@ -1,6 +1,8 @@
 body {
-
+  background-color: #ffecd1;
+  margin-top: 70px; /* added margin-top to body */
 }
+
 nav {
   list-style-type: none;
   background-color: #FFECD1;
@@ -11,19 +13,24 @@ nav {
   padding: 10px;
   color: #2D3A3A;
   text-align: left;
-  
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
 }
 
 li {
   display: inline;
   padding: 20px;
-  
 }
+
 li:hover {
   background-color: white;
 }
 
 a {
   text-decoration: none;
-  color: #A1674A
+  color: #A1674A;
 }
