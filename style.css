@@ -35,3 +35,47 @@ a {
   color: #A1674A;
   font-weight: bold;
 }
+
+h1 {
+  color: black;
+  font-size: 75px;
+  text-align: center;
+  background-color: white;
+  border-style: dashed;
+  text-shadow: 4px 4px grey;
+}
+
+body {
+  background-color: #ffecd1;
+  margin-top: 70px;
+}
+
+img {
+  width: 70%;
+}
+
+img:hover {
+  -webkit-transform: scaleX(-1);
+  transform: scaleX(-1);
+}
+
+h1:hover {
+  color: #57737a;
+}
+
+.content-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.side-image {
+  max-width: 200px;
+  border-radius: 10px;
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.side-image:hover {
+  transform: scale(1.1);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
