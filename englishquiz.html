@@ -4,35 +4,6 @@
     <title>Elijah's English Quiz</title>
     <link rel="stylesheet" href="style.css">
     <link rel="icon" type="image/x-icon" href="link to image">
-    <style>
-      h1 {
-        color: black;
-        font-size: 75px;
-        text-align: center;
-        background-color: white;
-        border-style: dashed;
-        text-shadow: 4px 4px grey;
-      }
-      body {
-        background-color: #ffecd1;
-        margin-top: 70px;
-      }
-      .images-container {
-        display: flex;
-        justify-content: center;
-        gap: 20px;
-        margin-top: 20px;
-      }
-      .quiz-image {
-        max-width: 200px;
-        border-radius: 10px;
-        transition: transform 0.3s, box-shadow 0.3s;
-      }
-      .quiz-image:hover {
-        transform: scale(1.1);
-        box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
-      }
-    </style>
   </head>
   <body>
     <nav>
@@ -42,13 +13,13 @@
         <li><a href="englishquiz.html">English Quiz</a></li>
       </ul>
     </nav>
-    <center>
-      <h1>English Quiz</h1>
-      <iframe width="392" height="620" style="border: 0px;" src="https://studio.code.org/projects/applab/2wVveYJhfxL1gxgfpDnkbQlOhbLcLkNWwxXBLKtmhII/embed"></iframe>
-      <div class="images-container">
-        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT6tItyqmhOfuwfTgRz7C7V8DOFMp7nXkUmvQ&s" alt="English Quiz Image 1" class="quiz-image">
-        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcShcXwqNVisC7TWZaL3Su3rHLjKnb3ct95nrA&s" alt="English Quiz Image 2" class="quiz-image">
-      </div>
-    </center>
+    <div class="content-container">
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT6tItyqmhOfuwfTgRz7C7V8DOFMp7nXkUmvQ&s" alt="English Quiz Image 1" class="side-image">
+      <center>
+        <h1>English Quiz</h1>
+        <iframe width="392" height="620" style="border: 0px;" src="https://studio.code.org/projects/applab/2wVveYJhfxL1gxgfpDnkbQlOhbLcLkNWwxXBLKtmhII/embed"></iframe>
+      </center>
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcShcXwqNVisC7TWZaL3Su3rHLjKnb3ct95nrA&s" alt="English Quiz Image 2" class="side-image">
+    </div>
   </body>
 </html>
