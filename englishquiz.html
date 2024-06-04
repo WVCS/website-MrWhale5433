@@ -1,20 +1,17 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>English Quiz</title>
+    <title>Elijah's English Quiz</title>
     <link rel="stylesheet" href="style.css">
     <link rel="icon" type="image/x-icon" href="link to image">
     <style>
       h1 {
-        color: #76e5fc;
+        color: black;
         font-size: 75px;
         text-align: center;
-        text-decoration-line: underline;
-        text-decoration-color: cyan;
-        text-decoration-thickness: 7px;
-        text-shadow: 1px 1px 3px cyan;
-        letter-spacing: 3px;
-        font-family: "Lucida Console", "Courier New", "Papyrus";
+        background-color: white;
+        border-style: dashed;
+        text-shadow: 4px 4px grey;
       }
       body {
         background-color: #ffecd1;
@@ -23,11 +20,17 @@
       .images-container {
         display: flex;
         justify-content: center;
-        gap: 10px;
+        gap: 20px;
+        margin-top: 20px;
       }
       .quiz-image {
-        max-width: 100px;
-        border-radius: 5px;
+        max-width: 200px;
+        border-radius: 10px;
+        transition: transform 0.3s, box-shadow 0.3s;
+      }
+      .quiz-image:hover {
+        transform: scale(1.1);
+        box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
       }
     </style>
   </head>
@@ -43,4 +46,9 @@
       <h1>English Quiz</h1>
       <iframe width="392" height="620" style="border: 0px;" src="https://studio.code.org/projects/applab/2wVveYJhfxL1gxgfpDnkbQlOhbLcLkNWwxXBLKtmhII/embed"></iframe>
       <div class="images-container">
-        <img src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBxMTEhUTExIWFhUXFxYXFRYYGRcXFhgWFx4YFx4YGh0YHSggGh4mGx0YITEiJSorMC4uGCAzODMsNygtLisBCgoKDg0OGxAQGy0mHyYuLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLf/AABEIAJcBTwMBEQACEQEDEQH/xAAcAAEAAgMBAQEAAAAAAAAAAAAABQYBBAcDAgj/xABLEAACAQMCAwUECAIHBAgHAAABAgMABBESIQUGMQcTQVFhIjJxgRQjQlJikaGxcpIkMzRDgrLBFUSi0SVTc3TC0uHwFhdUZJOjw//EABsBAQACAwEBAAAAAAAAAAAAAAADBAECBQYH/8QANhEAAgICAQMCBQIFBAEFAQAAAAECAwQRIQUSMUFREyIyYXEUgSMzQlKRBjRisaEWJILB8BX/2gAMAwEAAhEDEQA/AO40AoBQCgFAKAUAoBQCgFAKAUAoBQCgFAKAUAoBQGAaAaqAq8vFBbX8qSEiGWJZlcnKrIgZWX01IisPMqfOscIGrNxGaF4b24dlhkJjMAGREjjMZIUamlLgKfVwANsnPALDwvjMcxZVDq6gFkkRo20t0YBhuNiM+laqSfgElWQKyBQCgFAKAUAoBQCgFAYzQDNAM0A1UBmgPnVQfkaqDZr33EYoQGlkSME4BdlUE9cAsfLP5UCTFpxGKUZilSQeaMrfsaD0NjVWNgzmsrkGaAUAoBQCgMGgKSeHLby6Lqe4eOV8Qzm4nUq7HaF9LgLvsrAAHod8ZxsE2OEyR7wXMg/BMzTofQljrX5N49DQEHxQG4uFt7iDumkhk0NkSRGSJo3XS2BkjdtJA2B671DdtLYJ+Apd27RyLgkGOZPFJBjOPgcMp9VNSRalHgz4IqKOWVMggXlqxXPQSDY4b8EqaT44O/2aqv5JGfJYeE8QWeJZFBGcgqfeRlJDI3qGBBq3F7WzU3a2AoBQCgFAKAUAoDBrDBWOZud4LRu7w0s2ATGmPZB6FmOy+mdz5VZpxbbddiIbb4VLcmcx5s7XeIL/AFNrHCnQOT3xP6AKfTFb34N1P1I1pyqrfpZp8ndtN0J0S9CSROyqXUaGjycattmA8vIGqhY9NstXPHaXdopFhZSsg/3mSJ9H+BdOSPxHHTpW3ayJX1t6TKpyj203KzKl8
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT6tItyqmhOfuwfTgRz7C7V8DOFMp7nXkUmvQ&s" alt="English Quiz Image 1" class="quiz-image">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcShcXwqNVisC7TWZaL3Su3rHLjKnb3ct95nrA&s" alt="English Quiz Image 2" class="quiz-image">
+      </div>
+    </center>
+  </body>
+</html>
